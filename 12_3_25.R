@@ -1,0 +1,6 @@
+read.csv("D:/vignaR.csv")
+a = read.csv("D:/vignaR.csv")
+View(a)
+sink('data.txt')
+summary(a)
+sink()
