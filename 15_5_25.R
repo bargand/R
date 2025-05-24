@@ -45,32 +45,9 @@ moong <- Read_data
 print(moong)
 
 
-traits <- c("DFF", "DTM", "PH", "BPP", "NPPP", "PL", "NCPP", "NSPPO", "TSW", "SYPP")
+#traits <- c("DFF", "DTM", "PH", "BPP", "NPPP", "PL", "NCPP", "NSPPO", "TSW", "SYPP")
 
 # or 
 
-#
+traits <- names(Read_data)[3:ncol(Read_data)]
 print(traits)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
